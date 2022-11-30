@@ -5,3 +5,8 @@ Para Desafío Latam.
 Osvaldo Martínez
 Año 2022
 
+Link Repo:
+https://github.com/osmarse/introJS_OsvaldoMartinez
+
+Link github.io:
+https://osmarse.github.io/introJS_OsvaldoMartinez/
