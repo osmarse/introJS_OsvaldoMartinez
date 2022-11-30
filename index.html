@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="./assets/css/style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img id="macbook" src="./assets/img/macbook.png" alt="laptop">
+            <h3>MacBook Portable Computer</h3>
+            <input type="text" placeholder="cantidad" id="cantidad">
+            <input type="text" placeholder="color" id="color">
+            <p>Precio: <span id="precio">600000</span></p>
+            <button id="button" onclick="calcular()">Calcular Total</button>
+        </div>
+        <div class="totales">
+            <div>Total: $<span id="total_suma">0</span></div>
+            <div>Cantidad: <span id="total_cantidad">0</span></div>
+            <div>Color: <div id="color_final" class="color_final"></div></div>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

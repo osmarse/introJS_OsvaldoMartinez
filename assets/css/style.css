@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 700px;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(131, 183, 209);
+    text-align: center;
+    width: 300px;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5%;
+}
+
+body img{
+    width: 250px;
+    
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(36, 92, 120);
+    color: white;
+    border: 0px;
+    border-radius: 5%;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+input{
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    
+}
+
+.totales > div{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.color_final{
+    background-color: black;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    border-radius: 50px;
+} 
